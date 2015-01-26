@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SeyVote Log in</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<link href="admincss.css" rel="stylesheet"/>
+</head>
+<style>
+body {
+	background-color: #ffffff;
+}
+</style>
+<body>
+	<div id="header">
+		<!-- <img src="Logo.png"/> -->
+		<img src="sf.jpg"/>
+			</div>
+	<div class="container">
+		<div id="navbar"><button><a href="adminhomepage.html"><img src="navbutton.png"></a></button></div>
+	
+	<div class="jumbotron">
+			<h3><b>Create Vote</b></h3>
+
+
+<input type="text" id="inputHelpBlock" class="form-control" aria-describedby="helpBlock" value="Vote name..." onfocus="if (this.value == 'Vote name...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Vote name...';}"type="text" name="checkListItem" class="grey" >
+
+<span id="helpBlock" class="help-block"></span>
+<input type="text" id="inputHelpBlock" class="form-control" aria-describedby="helpBlock" value="Vote question..." onfocus="if (this.value == 'Vote question...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Vote question...';}"type="text" name="checkListItem" class="grey" >
+ <span id="helpBlock" class="help-block"></span>
+<center><input style="width:100%" type="number" class="form-control" placeholder="Input quorum"></center>
+		<hr>
+
+
+<div id="tablee">
+<table style="width:100%">
+  	<tr>
+    <td style="width:33%"><button style="width:100%" class="confirm" onclick="location.href='CreateElections.html'"> Send now  </button></td>
+    <td style="width:33%"><h3>or</h3></td>
+    <td style="width:33%">
+    <p> Input date </p>
+<input type="date" class="form-control" placeholder="Text input">
+<p>and hour of sending out</p>
+	<input type="time" class="form-control" placeholder="Text input">
+<button class="confirm" onclick="location.href='CreateElections.html'"> Safe  </button></td>
+  
+</table>
+</div>
+	<script>
+			$(document).ready(function(){
+			    $('.confirm').click(function(){
+			        confirm("Are you sure ?");
+			        
+					});
+				});
+			</script>
+
+	<script type="text/javascript" src="main.js"></script>
+	
+
+
+
+</div>
+</div>
+</body>
+</html>

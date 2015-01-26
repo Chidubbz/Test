@@ -147,7 +147,7 @@ li {
 	display:none;
 }
 
-/*--------------------------MEDIA!!!-----------------*/
+/*--------------------------MEDIA!!!-----------------
 @media screen and (max-width: 478px) {
 	body {
 		font-size: 13px;
@@ -187,8 +187,8 @@ li {
 		display: inline;
 	}
 	
-}
-@media screen and (min-width: 479px)
+}*/
+@media screen and (min-width: 0px)
 			  and (max-width: 740px) {
 	nav {
 		width: 100%;
