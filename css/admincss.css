@@ -165,12 +165,20 @@ li {
 	}
 
 	.main-navigation.open {
-		transform: translateX(0);
+		transform: translateX(-50%);
 	}
 
 	.main-navigation .nav-toggle {
 		right: 5%;
 		top: 5%;
+	}
+	.main-navigation ul {
+		margin: 0;
+		padding: 0;
+	}
+	.main-navigation ul a {
+		padding: 10px 20px;
+		display: block;
 	}
 	nav {
 		width: 100%;
