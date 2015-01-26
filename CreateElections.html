@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<title> Create Elections </title>
+<link type="text/css" rel="stylesheet" href="css\admincss.css">
+<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<body>
+<div id="wrapper">
+<header>
+	<i class="nav-toggle"><img src="navbutton.png"></i>
+	<nav>
+	<nav ="main-navigation">
+		<ul>
+			<li><a href="AdminHomePage.html"> Home </a></li>		
+			<li><a href="CreateVotes.html">Votes</a></li>
+			<li class="active"><a href="CreateElections.html">Elections</a></li>
+			<li><a href="AddRemoveAdmin.html">Admin</a></li>
+			<li><a href="Archive.html">Archive</a></li>
+			<li><a href="Results.html">Results</a></li>
+			<li><a href="SeyVoteLogin.html">Sign Out</a></li>
+		</ul>
+	</nav>
+	</nav>
+</header>
+</div>
+
+<div id="wrapperbody">
+	<center>
+	<h1> Create Elections </h1>
+
+		<input type="text" name="EQuestion" placeholder="Type Name Here" required>
+		<input type="number" value="Quorum" required>
+
+
+<div class="election">
+	<input type="text" name="country" value="Norway" readonly>
+	<input class="btn btn-default" type="submit" value="Remove">
+	<input type="text" name="country" value="Norway" readonly>
+	<input class="btn btn-default" type="submit" value="Remove">
+	<input type="text" name="country" value="Norway" readonly>
+	<input class="btn btn-default" type="submit" value="Remove">
+	<input type="text" name="country" value="Norway" readonly>
+	<input class="btn btn-default" type="submit" value="Remove">
+</div>
+
+
+</div>
+
+
+<script>
+		$(function () {
+			$('.nav-toggle').on('click', function(){
+			$('.main-navigation').toggleClass('open');
+			});
+		});
+		</script>
+</body>
+
+
+</html>

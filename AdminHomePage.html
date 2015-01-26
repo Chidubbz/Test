@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<title> Admin Home Page </title>
+
+<link type="text/css" rel="stylesheet" href="admincss.css">
+<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+	background: url("seyfarthHome.jpg") fixed center center;
+}
+nav {
+	margin:0px 25px 0px 0px;
+}
+nav ul li {
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+}
+nav ul li a {
+	text-align: center;
+}
+#wrapper {
+	position: relative;
+	top: 100px;
+	opacity: 0.7;
+}
+
+/*--------------------------MEDIA!!!-----------------*/
+@media screen and (max-width: 478px) {
+	#wrapper {
+		position: relative;
+		top: 40px;
+		opacity: 0.7;
+	}
+	nav {
+		width: 100%;
+		margin-right: 50px;
+		margin-left: 0px;
+	}
+	nav ul{	
+		margin-right: 50px;
+		margin-left: -10px;
+	}
+	nav ul li{
+		width: 100%;
+	}
+}
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+<header>
+	<nav>
+		<ul>	
+			<li><a href="CreateVotes.html">Create Votes</a></li>
+			<li><a href="CreateElections.html">Create Elections</a></li>
+			<li><a href="AddRemoveAdmin.html">Add/Remove Administrators</a></li>
+			<li><a href="Archive.html">Archive</a></li>
+			<li><a href="Results.html">Results</a></li>
+			<li><a href="SeyVoteLogin.html">Sign Out</a></li>
+		</ul>
+	</nav>
+</header>
+</div>
+
+
+
+</body>
+
+</hmtl>
